@@ -13,6 +13,7 @@ import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
+import { AIChatAssistant } from './components/AIChatAssistant';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
       </main>
       <Footer />
       <ScrollToTop />
+      <AIChatAssistant />
     </div>
   );
 }
