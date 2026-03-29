@@ -3,14 +3,162 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NET_ARCHITECT | Infrastructure Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- ─── Primary SEO ─────────────────────────────────────────────────── -->
+    <title>Sukitha Bandara — Network Engineer & Systems Architect | Sri Lanka</title>
+    <meta name="description" content="Senior Network Engineer & Systems Architect with 10+ years specializing in Active Directory, Hyper-V virtualization, Veeam backup, Cisco/Fortinet networking, and infrastructure automation with Ansible & Terraform." />
+    <meta name="keywords" content="Network Engineer Sri Lanka, Systems Architect, Active Directory, Hyper-V, VMware, Cisco CCNA, Fortinet, Veeam Backup, Infrastructure Automation, Ansible, Terraform, pfSense, Zabbix, Grafana, Sukitha Bandara" />
+    <meta name="author" content="Sukitha Bandara" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sukithabandara.dev/" />
+
+    <!-- ─── Open Graph (Facebook, LinkedIn previews) ─────────────────────── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sukithabandara.dev/" />
+    <meta property="og:title" content="Sukitha Bandara — Network Engineer & Systems Architect" />
+    <meta property="og:description" content="Senior infrastructure engineer specializing in enterprise networking, virtualization, backup, and security. 48+ projects · 2,500+ devices managed · 10+ years." />
+    <meta property="og:image" content="https://sukithabandara.dev/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sukitha Bandara — Network Engineer & Systems Architect Portfolio" />
+    <meta property="og:site_name" content="Sukitha Bandara Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ─── Twitter / X Card ─────────────────────────────────────────────── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://sukithabandara.dev/" />
+    <meta name="twitter:title" content="Sukitha Bandara — Network Engineer & Systems Architect" />
+    <meta name="twitter:description" content="Senior infrastructure engineer. 48+ projects · 2,500+ devices · 10+ years. Cisco, Fortinet, VMware, Veeam, Ansible, Terraform." />
+    <meta name="twitter:image" content="https://sukithabandara.dev/og-image.png" />
+    <meta name="twitter:image:alt" content="Sukitha Bandara Portfolio" />
+    <!-- Replace @handle with your actual Twitter/X handle if you have one -->
+    <!-- <meta name="twitter:site" content="@yourhandle" /> -->
+    <!-- <meta name="twitter:creator" content="@yourhandle" /> -->
+
+    <!-- ─── LinkedIn-specific (falls back to OG, but these help) ─────────── -->
+    <meta property="og:profile:first_name" content="Sukitha" />
+    <meta property="og:profile:last_name" content="Bandara" />
+
+    <!-- ─── Favicon set ───────────────────────────────────────────────────── -->
+    <!--
+      Generate these from /public/profile.png at https://favicon.io or https://realfavicongenerator.net/
+      and drop them into /public/
+    -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0070f3" />
+
+    <!-- ─── Structured Data (JSON-LD) — Person + WebSite ─────────────────── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://sukithabandara.dev/#person",
+          "name": "Sukitha Bandara",
+          "jobTitle": "Network Engineer & Systems Architect",
+          "description": "Senior IT infrastructure engineer with 10+ years of experience in enterprise networking, virtualization, backup solutions, and infrastructure automation.",
+          "url": "https://sukithabandara.dev/",
+          "email": "sukithabandara13@gmail.com",
+          "image": "https://sukithabandara.dev/profile.png",
+          "sameAs": [
+            "https://www.linkedin.com/in/sukithabandara",
+            "https://github.com/sukithabandara"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "LK",
+            "addressLocality": "Sri Lanka"
+          },
+          "knowsAbout": [
+            "Network Engineering",
+            "Cisco Routing and Switching",
+            "Fortinet Firewalls",
+            "Active Directory",
+            "Hyper-V Virtualization",
+            "VMware ESXi",
+            "Proxmox",
+            "Veeam Backup & Replication",
+            "Infrastructure Automation",
+            "Ansible",
+            "Terraform",
+            "Zabbix Monitoring",
+            "pfSense",
+            "WireGuard VPN",
+            "Linux System Administration",
+            "Windows Server"
+          ],
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Cisco Certified Network Associate (CCNA)",
+              "credentialCategory": "certification",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "Cisco"
+              }
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+              "credentialCategory": "certification",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "Microsoft"
+              }
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "CompTIA Security+",
+              "credentialCategory": "certification",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "CompTIA"
+              }
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "VMware Certified Professional — Data Center Virtualization (VCP-DCV)",
+              "credentialCategory": "certification",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "VMware"
+              }
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Fortinet NSE 4",
+              "credentialCategory": "certification",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "Fortinet"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://sukithabandara.dev/#website",
+          "url": "https://sukithabandara.dev/",
+          "name": "Sukitha Bandara — Portfolio",
+          "description": "Professional portfolio of Sukitha Bandara, Network Engineer & Systems Architect.",
+          "author": { "@id": "https://sukithabandara.dev/#person" }
+        }
+      ]
+    }
+    </script>
+
+    <!-- ─── Fonts ──────────────────────────────────────────────────────────── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
   </head>
   <body class="font-body selection:bg-primary-container selection:text-white bg-surface text-on-surface">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
