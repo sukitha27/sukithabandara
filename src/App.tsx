@@ -9,6 +9,7 @@ import { Stats } from './components/Stats';
 import { SystemHealth } from './components/SystemHealth';
 import { About } from './components/About';
 import { Capabilities } from './components/Capabilities';
+import { Certifications } from './components/Certifications';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
@@ -25,6 +26,7 @@ export default function App() {
         <SystemHealth />
         <About />
         <Capabilities />
+        <Certifications />
         <Projects />
         <Contact />
       </main>
