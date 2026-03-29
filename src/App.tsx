@@ -12,10 +12,11 @@ import { Capabilities } from './components/Capabilities';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { ScrollToTop } from './components/ScrollToTop';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-surface text-on-surface font-body selection:bg-primary-container selection:text-white">
+    <div className="min-h-screen bg-surface text-on-surface font-body selection:bg-primary-container selection:text-white overflow-x-hidden">
       <Navbar />
       <main>
         <Hero />
@@ -27,6 +28,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

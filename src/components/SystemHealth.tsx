@@ -148,7 +148,7 @@ export function SystemHealth() {
             </div>
             <div className="flex-1 p-4 font-mono text-[10px] text-gray-500 flex flex-col justify-end overflow-hidden space-y-2 bg-[#0a0a0a]">
               {logs.map((log) => (
-                <motion.div key={log.id} initial={{ opacity: 0, x: -5 }} animate={{ opacity: 1, x: 0 }}>
+                <motion.div key={log.id} initial={{ opacity: 0, x: -5 }} animate={{ opacity: 1, x: 0 }} className="break-words">
                   <span className="text-gray-600">[{log.time}]</span> <span className="text-gray-400">{log.msg}</span>
                 </motion.div>
               ))}

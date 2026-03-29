@@ -19,7 +19,7 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-[10px] uppercase tracking-widest text-outline">Primary Protocol</p>
-                <p className="font-bold text-lg">admin@net-architect.io</p>
+                <p className="font-bold text-lg">sukithabandara13@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-6 group">
